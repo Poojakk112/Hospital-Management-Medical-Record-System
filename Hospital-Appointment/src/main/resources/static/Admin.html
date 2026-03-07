@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+</head>
+<body>
+<h2>Admin Dashboard</h2>
+
+<h3>Add Appointment</h3>
+<input id="doctorId" placeholder="Doctor ID"><br>
+<input id="patientId" placeholder="Patient ID"><br>
+<input id="dateTime" placeholder="2026-02-28T10:00:00"><br>
+<select id="status">
+  <option>BOOKED</option>
+  <option>COMPLETED</option>
+  <option>CANCELED</option>
+</select><br>
+<button onclick="addAppointment()">Add Appointment</button>
+
+<hr>
+
+<h3>Add Medical Record</h3>
+<input id="docId" placeholder="Doctor ID"><br>
+<input id="patId" placeholder="Patient ID"><br>
+<input id="diag" placeholder="Diagnosis"><br>
+<input id="visitDate" placeholder="2026-02-28"><br>
+<button onclick="addRecord()">Add Record</button>
+
+<hr>
+
+<h3>Add Prescription</h3>
+<input id="recordId" placeholder="Record ID"><br>
+<input id="medicine" placeholder="Medicine"><br>
+<input id="dosage" placeholder="Dosage"><br>
+<input id="instruction" placeholder="Instruction"><br>
+<button onclick="addPrescription()">Add Prescription</button>
+
+<script>
+function addAppointment(){
+  fetch("http://localhost:8080/hospital/appointment/add",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      doctorID:doctorId.value,
+      patientId:patientId.value,
+      appointmentDateTime:dateTime.value,
+      status:status.value
+    })
+  }).then(r=>alert("Appointment Added"));
+}
+
+function addRecord(){
+  fetch("http://localhost:8080/hospital/medical/add",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      doctorId:docId.value,
+      patientId:patId.value,
+      diagonosis:diag.value,
+      visitDate:visitDate.value
+    })
+  }).then(r=>alert("Record Added"));
+}
+
+function addPrescription(){
+  fetch("http://localhost:8080/hospital/prescription/add",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      recordID:recordId.value,
+      medicine:medicine.value,
+      dosages:dosage.value,
+      instruction:instruction.value
+    })
+  }).then(r=>alert("Prescription Added"));
+}
+</script>
+</body>
+</html>

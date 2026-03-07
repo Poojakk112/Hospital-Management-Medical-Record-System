@@ -1,0 +1,57 @@
+2026-02-26 13:08:08,708 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-02-26 13:28:52,508 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-02-26 13:29:21,920 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jsp.spring-Boot:Hospital-Appointment:0.0.1-SNAPSHOT @ C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\pom.xml.
+2026-02-26 13:29:24,963 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hospital-Appointment/src/main/java
+2026-02-26 13:29:24,965 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hospital-Appointment/src/main/resources
+2026-02-26 13:29:24,966 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hospital-Appointment/src/main/resources
+2026-02-26 13:29:25,028 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hospital-Appointment/src/test/java
+2026-02-26 13:29:25,952 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2026-02-26 13:29:35,265 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-26 13:29:35,311 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-26 13:29:35,350 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-26 13:30:26,319 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-26 13:30:26,370 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-26 13:30:26,475 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-26 19:54:40,922 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-26 19:54:42,065 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-26 19:54:42,069 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-26 21:27:13,603 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-26 21:27:13,663 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-26 21:27:13,667 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-26 21:31:57,766 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-26 21:31:57,775 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-26 21:31:57,781 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-26 22:25:18,746 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.9; built: 2022-03-30T16:46:32.527Z; git: a9eaf8d5d73369acf610ce88f850c0d56c4b1113; jvm 17.0.3+7
+2026-02-26 22:25:19,461 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2026-02-26 22:25:20,296 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@54422511{/help,null,AVAILABLE}
+2026-02-26 22:25:20,731 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@679b19bd{HTTP/1.1, (http/1.1)}{127.0.0.1:61541}
+2026-02-26 22:25:20,919 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@334fbf46{STARTING}[10.0.9,sto=0] @32211471ms
+2026-02-26 23:47:50,481 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-26 23:47:51,314 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-26 23:47:51,318 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-26 23:48:07,248 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@334fbf46{STOPPING}[10.0.9,sto=0]
+2026-02-26 23:48:07,298 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@679b19bd{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-02-26 23:48:07,350 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@54422511{/help,null,STOPPED}
+2026-02-27 23:11:55,061 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-02-27 23:13:56,107 [Worker-11: Launching HospitalAppointmentApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-27 23:13:56,157 [Worker-11: Launching HospitalAppointmentApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-27 23:13:56,163 [Worker-11: Launching HospitalAppointmentApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-28 00:18:45,588 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-28 00:18:45,658 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-28 00:18:45,873 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-28 00:20:08,363 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-28 00:20:08,366 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-28 00:20:08,376 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-28 00:20:48,483 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-28 00:20:48,485 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-28 00:20:48,492 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-28 00:21:20,616 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-28 00:21:20,617 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-28 00:21:20,626 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-28 00:21:48,300 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-28 00:21:48,301 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-28 00:21:48,307 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-02-28 00:22:54,427 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-28 00:22:54,428 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-28 00:22:54,433 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Desktop\Final_Hospital_Appointment_Spring_Project\Hospital-Appointment\src\test\resources
+2026-03-01 11:52:46,824 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

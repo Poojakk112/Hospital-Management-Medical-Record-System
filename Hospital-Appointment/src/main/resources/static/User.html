@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Dashboard</title>
+</head>
+<body>
+<h2>Patient Dashboard</h2>
+
+<h3>Your Appointments</h3>
+<ul id="appointments"></ul>
+
+<h3>Your Medical Records</h3>
+<ul id="records"></ul>
+
+<h3>Your Prescriptions</h3>
+<ul id="prescriptions"></ul>
+
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const patientId = urlParams.get("patientId");
+
+fetch("http://localhost:8080/hospital/appointment/patient/"+patientId)
+.then(res=>res.json())
+.then(data=>{
+  data.data.forEach(a=>{
+    appointments.innerHTML += `<li>${a.appointmentDateTime} - ${a.status}</li>`;
+  })
+});
+
+fetch("http://localhost:8080/hospital/medical/patient/id/"+patientId)
+.then(res=>res.json())
+.then(data=>{
+  data.data.forEach(r=>{
+    records.innerHTML += `<li>${r.diagonosis} (${r.visitDate})</li>`;
+  })
+});
+
+fetch("http://localhost:8080/hospital/prescription")
+.then(res=>res.json())
+.then(data=>{
+  data.data.forEach(p=>{
+    prescriptions.innerHTML += `<li>${p.medicine} - ${p.dosages}</li>`;
+  })
+});
+</script>
+</body>
+</html>
